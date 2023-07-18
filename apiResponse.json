@@ -1,0 +1,67 @@
+{
+  "results": [
+    {
+      "id": 665379,
+      "title": "Winter Kimchi",
+      "image": "https://spoonacular.com/recipeImages/665379-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 637440,
+      "title": "Chapchae (Korean Stir-Fried Noodles)",
+      "image": "https://spoonacular.com/recipeImages/637440-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 648910,
+      "title": "Kimchi",
+      "image": "https://spoonacular.com/recipeImages/648910-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 648916,
+      "title": "Kimchi/Kimchee/Gimchi (Korean Fermented Spicy Cabbage)",
+      "image": "https://spoonacular.com/recipeImages/648916-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 634965,
+      "title": "Bibimbab (Korean Rice w Vegetables & Beef)",
+      "image": "https://spoonacular.com/recipeImages/634965-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 649077,
+      "title": "Korean-Style Hamburg Steak w Tomato Gravy",
+      "image": "https://spoonacular.com/recipeImages/649077-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 649031,
+      "title": "Korean Bibimbab (Rice w Vegetables & Beef)",
+      "image": "https://spoonacular.com/recipeImages/649031-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 1096217,
+      "title": "Healthy Cabbage Soup with Spicy Kimchi",
+      "image": "https://spoonacular.com/recipeImages/1096217-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 641565,
+      "title": "Donkatsu - Korean Breaded Pork Cutlet",
+      "image": "https://spoonacular.com/recipeImages/641565-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 649030,
+      "title": "Korean Beef Rice Bowl",
+      "image": "https://spoonacular.com/recipeImages/649030-312x231.jpg",
+      "imageType": "jpg"
+    }
+  ],
+  "offset": 0,
+  "number": 10,
+  "totalResults": 23
+}

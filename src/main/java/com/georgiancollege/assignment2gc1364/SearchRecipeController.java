@@ -7,9 +7,15 @@ import javafx.scene.control.*;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
+/**
+ * SearchRecipe Controller class
+ *
+ * @author Ji Hee Rhou
+ */
 public class SearchRecipeController implements Initializable {
 
     @FXML
@@ -30,6 +36,12 @@ public class SearchRecipeController implements Initializable {
     @FXML
     private Button getDetailsButton;
 
+    /**
+     * This is a method to initialize the scene
+     * get the data from the api and display the scene
+     * @param url
+     * @param resourceBundle
+     */
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         getDetailsButton.setVisible(false);
@@ -48,23 +60,41 @@ public class SearchRecipeController implements Initializable {
         }));
     }
 
+    /**
+     * This is a method for the event when the user click the 'Search' button
+     * Calls cuisine with the parameters
+     * @param event
+     */
     @FXML
     void searchButton_onClick(ActionEvent event) {
+        // clear the cuisineListView
         cuisineListView.getItems().clear();
+        // get user's selected cuisine from the cuisineComboBox
         String cuisine = cuisineComboBox.getSelectionModel().getSelectedItem();
+        // get user's search text from the searchTextField
         String searchText = searchTextField.getText();
 
-        ApiResponse apiResponse = ApiUtility.getDataFromFile("C:\\GeorgianCollege\\Java\\Assignment2-GC1364\\apiResponse.json");
-//        ApiResponse apiResponse = ApiUtility.getDataFromApi(cuisine, searchText);
+//        ApiResponse apiResponse = ApiUtility.getDataFromFile("C:\\GeorgianCollege\\Java\\Assignment2-GC1364\\apiResponse.json");
+        // get objects from Api response
+        ApiResponse apiResponse = ApiUtility.getDataFromApi(cuisine, searchText);
         if (apiResponse != null) {
+            // set the cuisineListView with the objects
             cuisineListView.getItems().addAll(apiResponse.getCuisines());
 
         }
 
     }
 
+    /**
+     * This is a method for the event when the user click the 'Get Details' button
+     * Change the search recipe scene to recipe details scene with selected recipe id
+     * @param event
+     * @throws IOException
+     */
     @FXML
-    void getDetailsButton_onClick(ActionEvent event) {
-
+    void getDetailsButton_onClick(ActionEvent event) throws IOException {
+        // get user's selected recipe id
+        int SelectedRecipeId = cuisineListView.getSelectionModel().getSelectedItem().getId();
+        SceneChanger.changeScene(event, "recipe-details-view.fxml", SelectedRecipeId);
     }
 }

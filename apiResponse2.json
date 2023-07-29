@@ -1,0 +1,578 @@
+{
+  "vegetarian": false,
+  "vegan": false,
+  "glutenFree": false,
+  "dairyFree": true,
+  "veryHealthy": true,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 13,
+  "gaps": "no",
+  "preparationMinutes": 35,
+  "cookingMinutes": 60,
+  "aggregateLikes": 1,
+  "healthScore": 100,
+  "creditsText": "Food and Wine",
+  "sourceName": "Food and Wine",
+  "pricePerServing": 591.14,
+  "extendedIngredients": [
+    {
+      "id": 10211216,
+      "aisle": "Produce",
+      "image": "ginger.png",
+      "consistency": "SOLID",
+      "name": "ginger",
+      "nameClean": "fresh ginger",
+      "original": "2 tablespoons grated fresh ginger",
+      "originalName": "grated fresh ginger",
+      "amount": 2.0,
+      "unit": "tablespoons",
+      "meta": [
+        "fresh",
+        "grated"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        }
+      }
+    },
+    {
+      "id": 9160,
+      "aisle": "Produce",
+      "image": "lime-juice.png",
+      "consistency": "LIQUID",
+      "name": "lime juice",
+      "nameClean": "lime juice",
+      "original": "3 tablespoons fresh lime juice",
+      "originalName": "fresh lime juice",
+      "amount": 3.0,
+      "unit": "tablespoons",
+      "meta": [
+        "fresh"
+      ],
+      "measures": {
+        "us": {
+          "amount": 3.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        },
+        "metric": {
+          "amount": 3.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        }
+      }
+    },
+    {
+      "id": 1034053,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "olive-oil.jpg",
+      "consistency": "LIQUID",
+      "name": "olive oil",
+      "nameClean": "extra virgin olive oil",
+      "original": "1 tablespoon extra-virgin olive oil",
+      "originalName": "extra-virgin olive oil",
+      "amount": 1.0,
+      "unit": "tablespoon",
+      "meta": [
+        "extra-virgin"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        }
+      }
+    },
+    {
+      "id": 43479,
+      "aisle": "Ethnic Foods",
+      "image": "vinegar-(white).jpg",
+      "consistency": "SOLID",
+      "name": "sake",
+      "nameClean": "shaoxing wine",
+      "original": "1/4 cup sake",
+      "originalName": "sake",
+      "amount": 0.25,
+      "unit": "cup",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 60.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 10115076,
+      "aisle": "Seafood",
+      "image": "salmon.png",
+      "consistency": "SOLID",
+      "name": "center-cut salmon fillets",
+      "nameClean": "salmon fillets",
+      "original": "4 6-ounce center-cut salmon fillets, with skin",
+      "originalName": "center-cut salmon fillets, with skin",
+      "amount": 24.0,
+      "unit": "ounce",
+      "meta": [
+        "with skin"
+      ],
+      "measures": {
+        "us": {
+          "amount": 24.0,
+          "unitShort": "oz",
+          "unitLong": "ounces"
+        },
+        "metric": {
+          "amount": 680.389,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 12023,
+      "aisle": "Ethnic Foods;Spices and Seasonings",
+      "image": "sesame-seeds.png",
+      "consistency": "SOLID",
+      "name": "sesame seeds",
+      "nameClean": "sesame seeds",
+      "original": "1 tablespoon sesame seeds, lightly toasted",
+      "originalName": "sesame seeds, lightly toasted",
+      "amount": 1.0,
+      "unit": "tablespoon",
+      "meta": [
+        "lightly toasted"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        }
+      }
+    },
+    {
+      "id": 16124,
+      "aisle": "Ethnic Foods;Condiments",
+      "image": "soy-sauce.jpg",
+      "consistency": "LIQUID",
+      "name": "soy sauce",
+      "nameClean": "soy sauce",
+      "original": "1/4 cup soy sauce",
+      "originalName": "soy sauce",
+      "amount": 0.25,
+      "unit": "cup",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 58.0,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    },
+    {
+      "id": 10011457,
+      "aisle": "Produce",
+      "image": "spinach.jpg",
+      "consistency": "SOLID",
+      "name": "spinach",
+      "nameClean": "spinach",
+      "original": "1 pound spinach, stems discarded",
+      "originalName": "spinach, stems discarded",
+      "amount": 1.0,
+      "unit": "pound",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "lb",
+          "unitLong": "pound"
+        },
+        "metric": {
+          "amount": 453.592,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 19335,
+      "aisle": "Baking",
+      "image": "sugar-in-bowl.png",
+      "consistency": "SOLID",
+      "name": "sugar",
+      "nameClean": "sugar",
+      "original": "1 tablespoon sugar",
+      "originalName": "sugar",
+      "amount": 1.0,
+      "unit": "tablespoon",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        }
+      }
+    },
+    {
+      "id": 98966,
+      "aisle": "Ethnic Foods",
+      "image": "dry-udon-noodles.png",
+      "consistency": "SOLID",
+      "name": "udon noodles",
+      "nameClean": "udon noodles",
+      "original": "1/2 pound fresh udon noodles",
+      "originalName": "fresh udon noodles",
+      "amount": 0.5,
+      "unit": "pound",
+      "meta": [
+        "fresh"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "lb",
+          "unitLong": "pounds"
+        },
+        "metric": {
+          "amount": 226.796,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    }
+  ],
+  "id": 4632,
+  "title": "Soy-and-Ginger-Glazed Salmon with Udon Noodles",
+  "readyInMinutes": 95,
+  "servings": 4,
+  "sourceUrl": "http://www.foodandwine.com/recipes/soy-and-ginger-glazed-salmon-with-udon-noodles",
+  "image": "https://spoonacular.com/recipeImages/4632-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "Soy-and-Ginger-Glazed Salmon with Udon Noodles takes roughly <b>1 hour and 35 minutes</b> from beginning to end. Watching your figure? This dairy free and pescatarian recipe has <b>552 calories</b>, <b>48g of protein</b>, and <b>17g of fat</b> per serving. For <b>$5.91 per serving</b>, this recipe <b>covers 47%</b> of your daily requirements of vitamins and minerals. This recipe serves 4. 1 person were impressed by this recipe. A mixture of spinach, lime juice, sesame seeds, and a handful of other ingredients are all it takes to make this recipe so tasty. Not a lot of people really liked this main course. It is brought to you by Food and Wine. With a spoonacular <b>score of 92%</b>, this dish is outstanding. <a href=\"https://spoonacular.com/recipes/soy-and-ginger-glazed-salmon-with-udon-noodles-1321839\">Soy-and-Ginger-Glazed Salmon with Udon Noodles</a>, <a href=\"https://spoonacular.com/recipes/soy-and-ginger-glazed-salmon-with-udon-noodles-1309259\">Soy-and-Ginger-Glazed Salmon with Udon Noodles</a>, and <a href=\"https://spoonacular.com/recipes/soy-and-ginger-glazed-salmon-with-udon-noodles-1360935\">Soy-and-Ginger-Glazed Salmon with Udon Noodles</a> are very similar to this recipe.",
+  "cuisines": [
+
+  ],
+  "dishTypes": [
+    "lunch",
+    "main course",
+    "main dish",
+    "dinner"
+  ],
+  "diets": [
+    "dairy free",
+    "pescatarian"
+  ],
+  "occasions": [
+
+  ],
+  "winePairing": {
+    "pairedWines": [
+      "pinot noir",
+      "chardonnay",
+      "sauvignon blanc"
+    ],
+    "pairingText": "Pinot Noir, Chardonnay, and Sauvignon Blanc are great choices for Salmon. To decide on white or red, you should consider your seasoning and sauces. Chardonnay is a great friend to buttery, creamy dishes, while sauvignon blanc can complement herb or citrus-centric dishes. A light-bodied, low-tannin red such as the pinot noir goes great with broiled or grilled salmon. You could try Bodegas Naveran Brut Vintage Rosado. Reviewers quite like it with a 4.9 out of 5 star rating and a price of about 18 dollars per bottle.",
+    "productMatches": [
+      {
+        "id": 477090,
+        "title": "Bodegas Naveran Brut Vintage Rosado",
+        "description": "An elegant premium Cava offeringbright citrus aromas and flavors,along with delicate, fine bubbles thatare the hallmark of a superbsparkling wine.FOOD PAIRINGS: This Naveran Brut Rosado will pair with soft cheeses, fresh fruit, white meats (pork and chicken) and even richly flavored red meats. This Cava is great for sipping on its own, especially for receptions and other “standing up” events.",
+        "price": "$17.989999771118164",
+        "imageUrl": "https://spoonacular.com/productImages/477090-312x231.jpg",
+        "averageRating": 0.9800000190734863,
+        "ratingCount": 6.0,
+        "score": 0.927368440126118,
+        "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fbodegas-naveran-brut-vintage-rosado-2017%2F553303"
+      }
+    ]
+  },
+  "instructions": "In a small saucepan, combine the soy sauce, sake, lime juice, ginger and sugar and bring to a boil; stir to dissolve the sugar. Pour the marinade into a glass baking dish; let cool completely. Add the salmon, turn to coat and marinate for 1 to 4 hours, turning occasionally.                                              Preheat the broiler. Broil the salmon, skin side down, 5 inches from the heat until golden, about 3 minutes. Turn the fillets and broil for 4 minutes, or until the skin is crisp and the fish is not quite cooked through. Transfer to a plate.                                              In a medium saucepan of boiling water, cook the udon until heated through, 1 minute. Drain the noodles and transfer to soup bowls.                                               Heat the olive oil in a large skillet. Add the spinach by handfuls and cook over high heat, tossing, until wilted. Mound the spinach on the udon and top with the salmon. Spoon the cooking juices in the baking dish over the fish, sprinkle with the sesame seeds and serve.",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "In a small saucepan, combine the soy sauce, sake, lime juice, ginger and sugar and bring to a boil; stir to dissolve the sugar.",
+          "ingredients": [
+            {
+              "id": 9160,
+              "name": "lime juice",
+              "localizedName": "lime juice",
+              "image": "lime-juice.png"
+            },
+            {
+              "id": 16124,
+              "name": "soy sauce",
+              "localizedName": "soy sauce",
+              "image": "soy-sauce.jpg"
+            },
+            {
+              "id": 11216,
+              "name": "ginger",
+              "localizedName": "ginger",
+              "image": "ginger.png"
+            },
+            {
+              "id": 19335,
+              "name": "sugar",
+              "localizedName": "sugar",
+              "image": "sugar-in-bowl.png"
+            },
+            {
+              "id": 43479,
+              "name": "sake",
+              "localizedName": "sake",
+              "image": "sake.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404669,
+              "name": "sauce pan",
+              "localizedName": "sauce pan",
+              "image": "sauce-pan.jpg"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "step": "Pour the marinade into a glass baking dish; let cool completely.",
+          "ingredients": [
+            {
+              "id": 0,
+              "name": "marinade",
+              "localizedName": "marinade",
+              "image": "seasoning.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 406921,
+              "name": "glass baking pan",
+              "localizedName": "glass baking pan",
+              "image": "glass-baking-tray.jpg"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "step": "Add the salmon, turn to coat and marinate for 1 to 4 hours, turning occasionally.",
+          "ingredients": [
+            {
+              "id": 15076,
+              "name": "salmon",
+              "localizedName": "salmon",
+              "image": "salmon.png"
+            }
+          ],
+          "equipment": [
+
+          ],
+          "length": {
+            "number": 240,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 4,
+          "step": "Preheat the broiler. Broil the salmon, skin side down, 5 inches from the heat until golden, about 3 minutes. Turn the fillets and broil for 4 minutes, or until the skin is crisp and the fish is not quite cooked through.",
+          "ingredients": [
+            {
+              "id": 15076,
+              "name": "salmon",
+              "localizedName": "salmon",
+              "image": "salmon.png"
+            },
+            {
+              "id": 10115261,
+              "name": "fish",
+              "localizedName": "fish",
+              "image": "fish-fillet.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 405914,
+              "name": "broiler",
+              "localizedName": "broiler",
+              "image": "oven.jpg"
+            }
+          ],
+          "length": {
+            "number": 7,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 5,
+          "step": "Transfer to a plate.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 6,
+          "step": "In a medium saucepan of boiling water, cook the udon until heated through, 1 minute.",
+          "ingredients": [
+            {
+              "id": 14412,
+              "name": "water",
+              "localizedName": "water",
+              "image": "water.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404669,
+              "name": "sauce pan",
+              "localizedName": "sauce pan",
+              "image": "sauce-pan.jpg"
+            }
+          ],
+          "length": {
+            "number": 1,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 7,
+          "step": "Drain the noodles and transfer to soup bowls.",
+          "ingredients": [
+            {
+              "id": 20420,
+              "name": "pasta",
+              "localizedName": "pasta",
+              "image": "fusilli.jpg"
+            },
+            {
+              "id": 0,
+              "name": "soup",
+              "localizedName": "soup",
+              "image": ""
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404783,
+              "name": "bowl",
+              "localizedName": "bowl",
+              "image": "bowl.jpg"
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "step": "Heat the olive oil in a large skillet.",
+          "ingredients": [
+            {
+              "id": 4053,
+              "name": "olive oil",
+              "localizedName": "olive oil",
+              "image": "olive-oil.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404645,
+              "name": "frying pan",
+              "localizedName": "frying pan",
+              "image": "pan.png"
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "step": "Add the spinach by handfuls and cook over high heat, tossing, until wilted. Mound the spinach on the udon and top with the salmon. Spoon the cooking juices in the baking dish over the fish, sprinkle with the sesame seeds and serve.",
+          "ingredients": [
+            {
+              "id": 12023,
+              "name": "sesame seeds",
+              "localizedName": "sesame seeds",
+              "image": "sesame-seeds.png"
+            },
+            {
+              "id": 10011457,
+              "name": "spinach",
+              "localizedName": "spinach",
+              "image": "spinach.jpg"
+            },
+            {
+              "id": 15076,
+              "name": "salmon",
+              "localizedName": "salmon",
+              "image": "salmon.png"
+            },
+            {
+              "id": 10115261,
+              "name": "fish",
+              "localizedName": "fish",
+              "image": "fish-fillet.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404646,
+              "name": "baking pan",
+              "localizedName": "baking pan",
+              "image": "roasting-pan.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null
+}

@@ -1,5 +1,10 @@
 package com.georgiancollege.assignment2gc1364;
 
+/**
+ * Cuisine Model class
+ *
+ * @author Ji Hee Rhou
+ */
 public class Cuisine {
     private int id;
 
@@ -7,6 +12,7 @@ public class Cuisine {
 
     private String image;
 
+    // getters
     public int getId() {
         return id;
     }

@@ -1,9 +1,10 @@
-package com.georgiancollege.assignment2gc1364;
+package com.georgiancollege.assignment2gc1364.Models;
 
+import com.georgiancollege.assignment2gc1364.Models.Cuisine;
 import com.google.gson.annotations.SerializedName;
 
 /**
- * ApiResponse class
+ * ApiResponse Model class
  *
  * @author Ji Hee Rhou
  */

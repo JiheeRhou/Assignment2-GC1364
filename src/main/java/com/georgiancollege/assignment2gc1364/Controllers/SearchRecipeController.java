@@ -1,5 +1,9 @@
-package com.georgiancollege.assignment2gc1364;
+package com.georgiancollege.assignment2gc1364.Controllers;
 
+import com.georgiancollege.assignment2gc1364.Models.ApiResponse;
+import com.georgiancollege.assignment2gc1364.Utilities.ApiUtility;
+import com.georgiancollege.assignment2gc1364.Models.Cuisine;
+import com.georgiancollege.assignment2gc1364.Utilities.SceneChanger;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;

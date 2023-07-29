@@ -1,5 +1,7 @@
-package com.georgiancollege.assignment2gc1364;
+package com.georgiancollege.assignment2gc1364.Utilities;
 
+import com.georgiancollege.assignment2gc1364.Models.ApiResponse;
+import com.georgiancollege.assignment2gc1364.Models.Recipe;
 import com.google.gson.Gson;
 import com.google.gson.stream.JsonReader;
 

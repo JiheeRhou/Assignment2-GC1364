@@ -1,4 +1,4 @@
-package com.georgiancollege.assignment2gc1364;
+package com.georgiancollege.assignment2gc1364.Models;
 
 /**
  * Cuisine Model class

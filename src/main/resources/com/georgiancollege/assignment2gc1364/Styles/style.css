@@ -1,0 +1,96 @@
+.list-view {
+    -fx-background-radius: 10;
+    -fx-font-family: "Leelawadee";
+}
+
+.list-cell {
+    -fx-background-radius: 30;
+}
+
+.list-cell:focused {
+    -fx-background-color: #0e4256;
+    -fx-text-fill: #fefebd;
+    -fx-font-weight: bold;
+}
+
+.combo-box {
+    -fx-font-family: "Arial Black";
+    -fx-background-radius: 30;
+}
+
+.button{
+    -fx-background-color: #8140d0;
+    -fx-background-radius: 30;
+    -fx-font-family: "Gill Sans Ultra Bold";
+    -fx-text-fill: #a1ff15;
+    -fx-font-size: 14px;
+}
+
+.button:hover {
+    -fx-background-color: #03b020;
+    -fx-text-fill: #95f0f7;
+}
+
+#ingredientsText {
+    -fx-font-family: "Arial Black";
+}
+
+#searchScene {
+    -fx-background-color: #bbedd4;
+}
+
+.label {
+    -fx-font-family: "Britannic Bold";
+    -fx-text-fill: #021584;
+    -fx-font-size: 24px;
+}
+
+#searchRecipeLabel {
+    -fx-font-family: "Eras Bold ITC";
+    -fx-text-fill: #2e08a1;
+    -fx-font-size: 24px;
+}
+
+#searchTextField {
+    -fx-background-color: #117c03;
+    -fx-background-radius: 10;
+    -fx-font-family: "Candara";
+    -fx-text-fill: #f4a32f;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+#searchButton {
+    -fx-background-color: #01219d;
+    -fx-background-radius: 30;
+    -fx-font-family: "Gill Sans Ultra Bold";
+    -fx-text-fill: #eeb057;
+    -fx-font-size: 14px;
+}
+
+#searchButton:hover {
+    -fx-background-color: #6f05a3;
+    -fx-text-fill: #9df5e9;
+}
+
+#searchScene #titleLabel {
+    -fx-font-family: "Eras Bold ITC";
+    -fx-text-fill: #6908a1;
+    -fx-font-size: 14px;
+}
+
+#detailScene {
+    -fx-background-color: #eee799;
+}
+
+#detailScene .label {
+    -fx-font-family: "Britannic Bold";
+    -fx-text-fill: #04167b;
+    -fx-font-size: 16px;
+}
+
+#detailScene #titleLabel {
+    -fx-font-family: "Eras Bold ITC";
+    -fx-text-fill: #2e08a1;
+    -fx-font-size: 24px;
+}

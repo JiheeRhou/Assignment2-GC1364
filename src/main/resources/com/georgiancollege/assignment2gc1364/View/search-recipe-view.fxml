@@ -12,16 +12,16 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="450.0" prefWidth="800" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.georgiancollege.assignment2gc1364.Controllers.SearchRecipeController">
+<AnchorPane fx:id="searchScene" prefHeight="450.0" prefWidth="800" stylesheets="@../Styles/style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.georgiancollege.assignment2gc1364.Controllers.SearchRecipeController">
    <children>
       <VBox alignment="CENTER" layoutX="46.0" layoutY="24.0" prefHeight="450.0" prefWidth="650.0" spacing="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <Label text="Search Recipe">
+            <Label fx:id="searchRecipeLabel" text="Search Recipe">
                <font>
                   <Font size="28.0" />
                </font>
             </Label>
-            <HBox spacing="10.0">
+            <HBox alignment="CENTER" spacing="10.0">
                <children>
                   <Label prefHeight="24.0" prefWidth="82.0" text="Cuisine">
                      <font>
@@ -29,8 +29,8 @@
                      </font>
                   </Label>
                   <ComboBox fx:id="cuisineComboBox" prefHeight="28.0" prefWidth="223.0" />
-                  <TextField fx:id="searchTextField" prefHeight="28.0" prefWidth="342.0" promptText="Search Cuisine" />
-                  <Button mnemonicParsing="false" onAction="#searchButton_onClick" prefHeight="28.0" prefWidth="88.0" text="Search" />
+                  <TextField fx:id="searchTextField" prefHeight="32.0" prefWidth="342.0" promptText="Search Cuisine" />
+                  <Button fx:id="searchButton" mnemonicParsing="false" onAction="#searchButton_onClick" prefHeight="28.0" prefWidth="88.0" text="Search" />
                </children>
             </HBox>
             <HBox prefHeight="266.0" prefWidth="780.0" spacing="20.0">
@@ -51,7 +51,7 @@
                   </VBox>
                </children>
             </HBox>
-            <Button fx:id="getDetailsButton" mnemonicParsing="false" onAction="#getDetailsButton_onClick"  text="Get Details" />
+            <Button fx:id="getDetailsButton" mnemonicParsing="false" onAction="#getDetailsButton_onClick" text="Get Details" />
          </children>
          <HBox.margin>
             <Insets />

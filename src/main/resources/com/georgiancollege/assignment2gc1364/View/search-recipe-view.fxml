@@ -29,11 +29,11 @@
                      </font>
                   </Label>
                   <ComboBox fx:id="cuisineComboBox" prefHeight="28.0" prefWidth="223.0" />
-                  <TextField fx:id="searchTextField" prefHeight="32.0" prefWidth="342.0" promptText="Search Cuisine" />
-                  <Button fx:id="searchButton" mnemonicParsing="false" onAction="#searchButton_onClick" prefHeight="28.0" prefWidth="88.0" text="Search" />
+                  <TextField fx:id="searchTextField" prefHeight="32.0" prefWidth="323.0" promptText="Search Cuisine" />
+                  <Button fx:id="searchButton" mnemonicParsing="false" onAction="#searchButton_onClick" prefHeight="32.0" prefWidth="105.0" text="Search" />
                </children>
             </HBox>
-            <HBox prefHeight="266.0" prefWidth="780.0" spacing="20.0">
+            <HBox prefHeight="256.0" prefWidth="760.0" spacing="20.0">
                <children>
                   <ListView fx:id="cuisineListView" prefHeight="285.0" prefWidth="438.0">
                      <HBox.margin>
@@ -41,23 +41,27 @@
                      </HBox.margin></ListView>
                   <VBox alignment="CENTER" spacing="10.0">
                      <children>
-                        <ImageView fx:id="cuisineImageView" fitHeight="202.0" fitWidth="289.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fx:id="cuisineImageView" fitHeight="180.0" fitWidth="289.0" pickOnBounds="true" preserveRatio="true">
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin></ImageView>
                         <Label fx:id="titleLabel" alignment="CENTER" maxWidth="285.0" prefHeight="17.0" prefWidth="285.0" text="Title">
                            <font>
                               <Font size="14.0" />
                            </font>
                         </Label>
+                        <Label fx:id="errorLabel" text="No Cuisine Found!" />
                      </children>
                   </VBox>
                </children>
             </HBox>
-            <Button fx:id="getDetailsButton" mnemonicParsing="false" onAction="#getDetailsButton_onClick" text="Get Details" />
+            <Button fx:id="getDetailsButton" mnemonicParsing="false" onAction="#getDetailsButton_onClick" prefHeight="40.0" prefWidth="127.0" text="Get Details" />
          </children>
          <HBox.margin>
             <Insets />
          </HBox.margin>
          <padding>
-            <Insets left="20.0" />
+            <Insets left="20.0" right="20.0" />
          </padding>
       </VBox>
    </children>

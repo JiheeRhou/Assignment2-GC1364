@@ -79,14 +79,18 @@
     -fx-font-size: 14px;
 }
 
+#errorLabel {
+    -fx-text-fill: #fb1403;
+}
+
 #detailScene {
     -fx-background-color: #eee799;
 }
 
 #detailScene .label {
     -fx-font-family: "Britannic Bold";
-    -fx-text-fill: #04167b;
-    -fx-font-size: 16px;
+    -fx-text-fill: #047b49;
+    -fx-font-size: 20px;
 }
 
 #detailScene #titleLabel {

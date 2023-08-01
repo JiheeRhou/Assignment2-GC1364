@@ -48,15 +48,18 @@ public class ApiUtility {
      * @return ApiResponse
      */
     public static ApiResponse getDataFromApi(String cuisine, String searchText){
-        searchText = searchText.replace(" ", "%20");
         String uri = "https://api.spoonacular.com/recipes/complexSearch?apiKey=f7d9fe0cb6904472b306acfcdf25d7a5";
 
         // When user entered search text
         if (!searchText.equals("")){
+            // if searchText has blanks, the blank replace with %20
+            searchText = searchText.replace(" ", "%20");
             uri += "&query=" + searchText;
         }
         // When user selected cuisine
         if (!cuisine.equals("All")) {
+            // if cuisine has blanks, the blank replace with %20
+            cuisine = cuisine.replace(" ", "%20");
             uri += "&cuisine=" + cuisine;
         }
 
